@@ -1,0 +1,226 @@
+body{
+    background-color: #e2e2e2;
+    margin: 0 auto;
+    background-color: #e2e2e2;
+    text-align: -webkit-center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.landmark-container{
+    margin: 0;
+    width: fit-content;
+}
+.landmark-logo{
+    height: 65px;
+    width: 146px;
+    background: url(icons/css-sprite.png)-7px 0px;
+}
+.landmark-card{
+    background-color: #ffffff;
+    width: 100%;
+    margin:20px 0px;
+}
+.landmark-card-header{
+    border-bottom:1px solid #eeeeee;
+    padding: 10px;
+}
+.landmark-header{
+width: 100%;
+text-align: -webkit-auto;
+}
+.landmark-header-title{
+    font-size: 18pt;
+}
+.landmark-header-sub-title{
+    font-size: 12pt;
+}
+.landmark-link{
+    color:#53b5e7;
+    cursor: pointer;
+}
+.landmark-card-content{
+    padding-bottom: 20px;
+    display:flex;
+    margin: 30px 0px;
+}
+.landmark-data-container{
+    width: 350px;
+    text-align: left;
+    margin-left: 8%;
+}
+.landmard-loginBy{
+    width: 300px;
+    text-align: left;
+}
+.lm-loginBy{
+    border-radius: 15px;
+    border: none;
+    text-align: left;
+    height: 25px;
+    margin-left: 20%;
+    font-size: 9pt;
+    font-weight: 600;
+    color:#ffffff;
+    padding-left: 34px;
+    width: 185px;
+    background-blend-mode: overlay;
+}
+.lm-facebook{
+    background:url(icons/facebook.png)7px 1px no-repeat #769bd2;
+}
+.lm-twitter{
+    background:url(icons/twitter.png) 4px 1px no-repeat #7ec5f9;
+}
+.lm-seperator{
+border-left:1px solid #eeeeee;
+margin-left: 5px;
+}
+.lm-login-div{
+    margin:10px 0px;
+}
+.lm-input{
+    height:20px;
+    padding: 2px 5px;
+    border: 1px solid lightgrey;
+}
+.lm-error{
+    color:red;
+	margin-top: 6px;
+    font-size: 8pt;
+    margin-left: 10px;
+    font-weight: 600;
+    position: absolute;
+    width: 95px;
+}
+.lm-valid{
+    color:#409f10;
+	margin-top: 6px;
+    font-size: 8pt;
+    margin-left: 10px;
+    font-weight: 600;
+    position: absolute;
+    width: 95px;
+}
+.lm-rememberme{
+    font-size: 8pt;
+    color:#666666;
+}
+.lm-login-btn{
+    margin-left: 33px;
+    width: 54px;
+    font-size: 8pt;
+    padding: 0;
+    text-align: center;
+    margin-left: 33px;
+}
+.lm-checkbox{
+vertical-align: middle;
+}
+.lm-login-btn-div{
+    margin-top: 20px;
+}
+.lm-or{
+    font-size: 11pt;
+    font-weight: bold;
+}
+.lg-learn-video{
+   background: url(icons/css-sprite.png)0px -191px;
+    width: 602px;
+    background-size: cover;
+    height: 340px;
+}
+.lm-video-container{
+    width: 100%;
+}
+.lm-play-btn{
+    background: url(icons/css-sprite.png)-179px -486px;
+    width: 125px;
+    height: 128px;
+    margin-top: 124px;
+    margin-left: 237px;
+    position: absolute;
+}
+.lm-delete-icn{
+    height: 8px;
+    width: 8px;
+    display: inline-block;
+    background: url(icons/css-sprite.png)-842px -500px;
+}
+.lm-check-icn{
+    height: 8px;
+    width: 8px;
+    display: inline-block;
+    background: url(icons/css-sprite.png)-870px -500px;
+}
+
+.lm-select{
+width: 183px;
+height: 25px;
+color: gray;
+}
+.lm-disclaimer{
+width: 183px;
+font-size: 8pt;
+}
+.lm-register-btn{
+    width: 70px;
+    margin-left: 112px;
+}
+.landmark-register{
+display:none;
+}
+.landmark-login{
+    display: none;
+}
+.lm-hide{
+    display:none;
+}
+.lm-btn-enable{
+    background-color: #53b5e7; 
+}
+.lm-forgot-password{
+    position: absolute;
+    top: 10px;
+    left: 102px;
+    font-style: italic;
+    font-size: 7pt;
+}
+.lm-fp-div{
+    position: relative;
+}
+.lm-input-error{
+    border: 1px solid red;
+}
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  
+   .landmark-container{
+    margin: auto!important;
+    display: table;
+   }
+body{
+	text-align:center;
+}
+.landmark-card-content{
+	min-height:130px;
+}
+.landmark-data-container{
+	width:auto;
+	float:left;
+}
+.landmard-loginBy{
+	width:auto;
+	float:left;
+	margin-left:125px;
+}
+.lm-forgot-password{
+	left:70px;
+}
+.lm-input{
+	width:150px;
+	padding:0;
+}
+.lg-learn-video{
+margin: 0px 20px;	
+}
+.lm-register-form{
+	min-height:280px;
+}
+}

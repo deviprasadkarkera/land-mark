@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css"></link>
+	<!--[if IE]>
+    <link rel="stylesheet" type="text/css" href="ie-style.css" />
+	<![endif]-->
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script type="text/javascript" src="html5lightbox/jquery.js"></script>
+	<!--[if gte IE 10]><!-->
+   <script type="text/javascript" src="html5lightbox/html5lightbox.js"></script>
+<!--<![endif]-->
+    
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="landmark-container">
+        <div class="landmark-header">
+    <div class="landmark-logo"></div>
+        </div>
+    
+        <div class="landmark-card">
+            <div class="landmark-card-header">
+    <div class="lm-data-h1 landmark-header-title"></div>
+    <div class="lm-data-h2 landmark-header-sub-title"></div>
+            </div>
+            <div class="landmark-card-content lm-login-form">
+                <div class="landmark-data-container">
+                </div>
+                <div class="landmard-loginBy">
+                    <div><span class="lm-seperator"></span><button class="lm-loginBy lm-facebook"></button></div>
+                    <div class="lm-or">or</div>
+                    <div><span class="lm-seperator"></span><button class="lm-loginBy lm-twitter"></button></div>
+                </div>
+            </div>
+        </div>
+        <div class="landmark-login">
+            <div class="lm-login-div"> <input class="lm-input lm-login-username" placeholder="Username" type="text" name="username" id="lm-login"></input><span class="lm-hide lm-error-username lm-error"><span class="lm-delete-icn"></span> Required field</span></div>
+             <div class="lm-login-div lm-fp-div"><input class="lm-input lm-login-password" placeholder="Password" type="password" value="" name="password" id="lm-password"></input><a class="lm-forgot-password landmark-link" >Forgot password?</a><span class="lm-hide lm-error-password lm-error"><span class="lm-delete-icn"></span> Required field</span></div>
+             <div class="lm-login-div lm-login-btn-div"><input type="checkbox"cclass="lm-checkbox" checked name="remember-me" id="lm-remember"></input><span class="lm-rememberme">Remember me</span><button class="lm-login-btn lm-loginBy" type="submit">Login</button></div>
+         </div>
+        <div class="landmark-register">
+                <div class="lm-login-div"> <input class="lm-input lm-reg-email" placeholder="Email" required type="email" name="email" id="lm-register-email"></input><span class="lm-hide lm-error-email lm-error"></div>
+                <div class="lm-login-div"> <input class="lm-input lm-reg-username" placeholder="Username" required type="text" name="username" id="lm-register-username"></input><span class="lm-hide lm-error-username lm-error"><span class="lm-delete-icn"></span> Required field</span></div>
+                <div class="lm-login-div"><input class="lm-input lm-reg-password" placeholder="Password" type="password" required name="password" id="lm-register-password"></input><span class="lm-hide lm-error-password lm-error"><span class="lm-delete-icn"></span> Required field</span></div>
+                <div class="lm-login-div"><input class="lm-input lm-reg-conf-pass" placeholder="Confirm Password" required type="password" name="confPassword" id="lm-register-confpassword"></input><span class="lm-hide lm-error-confirm lm-error"><span class="lm-delete-icn"></span> Required field</span></div>
+                <div class="lm-login-div"><select  class="lm-input lm-select"><option value="">Select Sex</option><option value="1">Male</option><option value="0">Female</option></select><span class="lm-hide lm-error-sex lm-error"><span class="lm-delete-icn"></span> Required field</span></div>
+                <div class="lm-login-div lm-disclaimer">By clicking Register, you agree to our<span class="landmark-link"> Terms</span> and that you have read our<span class="landmark-link"> Data Use Policy</span>, including our<span class="landmark-link"> Cookie Use.</span></div>
+                <div class="lm-login-div lm-login-btn-div"><button class="lm-login-btn lm-register-btn lm-loginBy" type="submit">Register</button></div>
+        </div>
+        <div class="landmark-card">
+            <div class="landmark-card-header">
+                    <div class="landmark-header-title">Learn more!</div>
+                    <div class="landmark-header-sub-title">Check out our demos and quick guides to our app.</div>                
+            </div>
+            <div class="landmark-card-content">
+               <div class="lm-video-container"> <div class="lg-learn-video">
+                    <a href="https://www.youtube.com/watch?v=Z_I8vxGf0YU"  class="html5lightbox" data-width="480" data-height="320" title="Landmark Group-Play author deviprasad"><div class="lm-play-btn"></div></a>
+                </div>
+            </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
